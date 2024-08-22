@@ -112,17 +112,17 @@
 	width: 170px;
 }
 
-#information > .examples > .example > .illustration {
+#information > .examples > .example > .illustration > img{
 	height: 160px;
 	width: 160px;
 	border-radius: 17px;
-	border-width: 5px;
+	border-width: 7px;
 	border-style: solid;
 	border-color: #3882F6;
 }
 
-#information > .examples > .example > .subtext {
-	margin-top: 10px;
+#information > .subtext {
+	margin-top: 40px;
 	font-size: 18px;
 	text-align: center;
 	color: gray;
