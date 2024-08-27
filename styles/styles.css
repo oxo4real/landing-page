@@ -19,16 +19,21 @@
 	padding: 20px;
 }
 
-#hero > .header > .logo {
+#hero > .header > .logo > a {
 	font-size: 24px;
 	font-weight: 1000;
 	color: #F9FAF8;
+	text-decoration: none;
 }
 
 #hero > .header > .links {
 	display: flex;
+	flex: 1;
 	justify-content: space-between;
-	width: 430px;
+	max-width: 460px;
+}
+
+#hero > .header > .links > .link {
 	font-size: 18px;
 	color: #E5E7EB;
 }
